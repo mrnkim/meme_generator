@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+#stage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    max-width: 100%
+
+}
+
+#form {
+    padding: 15px;
+}
+
+.memeDiv, img{
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.memeDiv {
+    margin-bottom: 50px;
+}
+
+.intro
+ {
+    margin-left: auto;
+    display: block;
+    padding: 10px;
+
+}
+
+h1, p{
+    font-family: 'Shadows Into Light', cursive;
+        font-size: 2.5em;
+        text-align: center;
+        margin: auto;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    display: block;
+    width: 98.5%;
+    padding: 5px 5px;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom:15px;
+    font-size: 1em;
+}
+
+label {
+    text-align: left;
+    font-family: geneva, sans-serif;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: rgb(68, 71, 76);
+    border: none;
+    color: whitesmoke;
+    transition: background-color 0.2s, cursor 0.2s;
+}
+
+input[type="submit"]:hover {
+background-color:rgb(68, 166, 115);
+cursor: pointer;
+}
+
+.removeBtn {
+    display: "none";
+    color: "rgba(255, 255, 255, 0.2)";
+    background-color: "rgba(66, 64, 64, 0.1)";
+    position: "absolute";
+    bottom: "0%";
+    top: "0%";
+    right: "0%";
+    left: "0%";
+    border: "none";
+    min-width: "100%";
+    min-height: "100%";
+}
+
